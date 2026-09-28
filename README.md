@@ -30,25 +30,35 @@ El método no es nuestro: es de la industria (Goldratt, Shewhart, Toyota, ISO 90
 | Producto | Para quién | Enlace |
 |---|---|---|
 | **Integrika** | PyMEs que quieren ordenar operación, inventario y procesos | [integrika.mx](https://integrika.mx) |
-| **PLD** | Despachos y sujetos obligados en prevención de lavado de dinero | [pld.integrika.mx](https://pld.integrika.mx) |
+| **OVIO** | Clínicas en México: agenda, expediente, farmacia, caja y contabilidad | [integrika.mx/Medica/pitch](https://integrika.mx/Medica/pitch) |
+| **PLD-MX** | Sujetos obligados en prevención de lavado de dinero (LFPIORPI) | [pld.integrika.mx](https://pld.integrika.mx) |
 
-## Demos
+## Lo que ya está construido
 
-Maquetas funcionales que muestran cómo se ve un sistema antes de construirlo.
+No son maquetas ni presentaciones: son sistemas construidos, cada uno para una operación real. Los negocios no se nombran porque sus números son suyos, no nuestros.
 
 | Demo | Qué resuelve |
 |---|---|
-| [Operación clínica](https://clinica-mexico-spa.lovable.app) | Pacientes, citas y datos para clínicas en México |
-| [Ley Antilavado (PLD/FT)](https://ley-visada-demo.lovable.app) | Cumplimiento PLD/FT para sujetos obligados |
-| [Agave Flow](https://agave-flow-vision.lovable.app) | Producción, inventario y logística tequilera |
+| [OVIO](https://clinica-mexico-spa.lovable.app) | Agenda, expediente, farmacia y caja para clínicas en México |
+| [PLD-MX · Antilavado](https://ley-visada-demo.lovable.app) | Cumplimiento PLD/FT para sujetos obligados |
+| [Trazabilidad Tequilera](https://agave-flow-vision.lovable.app) | Producción, inventario y logística tequilera |
 | [Stemcell Conecta](https://stemcell-conecta.lovable.app) | CRM de ventas por WhatsApp para laboratorios |
-| [CAIO Continuo](https://caio-continuo-growth.lovable.app) | Gestión de proyectos de IA y automatización |
+| [Jano](https://caio-continuo-growth.lovable.app) | Sistema operativo para consultorías de IA |
 | [ClinicFlow MX](https://clinicflow-mx.lovable.app) | Clínicas, de captación a seguimiento |
 | [VitalPath](https://vitalpath-demo.lovable.app) | Healthcare OS: recorrido completo del paciente |
 | [HOS Care Flow](https://hos-care-flow.lovable.app) | Healthcare OS: diseño de SaaS |
-| Administración escolar | Cobranza, asistencia y cafetería (sin demo pública) |
+| Panel Escolar Integral | Cobranza, asistencia y cafetería (sin demo pública) |
+| Portal de Laboratorio Clínico | Resultados validados y entregados sin papel ni llamadas (sin demo pública) |
 
-## Stack
+**Prototipos y pilotos** (demo por WhatsApp):
+
+| Solución | Qué resuelve |
+|---|---|
+| Club de Playa Integral · Prototipo | De la reserva en el plano al cierre del día, en un solo sistema |
+| Tours y Charters · Prototipo | Del pago al tour y a la reseña, sin perseguir al cliente |
+| Inteligencia Mediática · Piloto abierto | Entérate de lo que dicen de ti antes de que se vuelva crisis |
+
+## Stack (OVIO, PLD-MX y sistemas a la medida)
 
 `Node.js` · `TypeScript` · `Supabase (Postgres)` · `Cloudflare Workers` · `Claude (IA)` · `n8n`
 
